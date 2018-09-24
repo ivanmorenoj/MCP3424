@@ -9,9 +9,13 @@ $ apt install libi2c-dev
 ```sh
 $ g++ MCP3424.cpp demo-adcread.cpp -o test
 ```
-# API
+# Excecute
+```sh
+$ ./test
 ```
-MCP3424(char address,char rate=18);
+# Usage
+```
+  MCP3424(char address,char rate=18);
   /**
   * @param address - I2C address for the target device e.g. 0x68
   * @param channel - 1 to 4
