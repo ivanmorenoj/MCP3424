@@ -9,7 +9,7 @@ $ apt install libi2c-dev
 ```sh
 $ g++ MCP3424.cpp demo-adcread.cpp -o test
 ```
-# Excecute
+# Execute
 ```sh
 $ ./test
 ```
